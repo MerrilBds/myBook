@@ -35,7 +35,7 @@ section .book:before{
     width: 60px;
     height:100%;
     transform-origin: left;
-    background: url(side.png);
+    background-image: url('side.png');
     background-position: center;
     transform: rotateY(90deg);
 
