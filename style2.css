@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("/img/eugene.jpg");
+  background-image: url("eugene.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .container{
-  background-image: url("/img/paper.jpg");
+  background-image: url("paper.jpg");
   font-size: 24px;
   margin: 25px;
   margin-top: 120px;
@@ -33,4 +33,21 @@ body {
 .child h2{
  margin-left: 50%;
  margin-right: 50%;
+}
+button.son{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 150px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#273c75,#079992);
+	color: #fff;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+.is-dark{
+background-color: black;
+color: #fff;
 }
