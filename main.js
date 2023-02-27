@@ -81,3 +81,9 @@ function goPrevPage() {
         currentLocation--;
     }
 }
+$(document).ready(function(){
+    $(".effect").ripples({
+    resolution: 200,
+    perturbance: .004,
+});
+});

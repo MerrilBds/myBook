@@ -9,7 +9,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-family: sans-serif;
   background-image: url("bgf.jpg");
 }
@@ -96,7 +95,7 @@ img {
     font-family: "Adobe Caslon Pro", sans-serif;
     margin-left: 10px;
     display:inline-flex;
-    font-size: 25px;
+    font-size: 22px;
 }
 #b2 img{
 height: 300px;

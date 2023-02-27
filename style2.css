@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("eugene.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container{
+  background-image: url("paper.jpg");
+  font-size: 24px;
+  margin: 25px;
+  margin-top: 120px;
+  width: 450px;
+  height: 700px;
+  outline: dashed 1px cyan;
+  /* Setup */
+  position: relative;
+}
+.child {
+  /*background-color: red;*/
+  /* Center vertically and horizontally */
+  position: absolute;
+  justify-content: center;
+  font-family: 'Grenda', sans-serif;
+  margin-left: 20px;
+}
+.child h2{
+ margin-left: 50%;
+ margin-right: 50%;
+}
