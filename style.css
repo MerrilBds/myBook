@@ -5,6 +5,7 @@
 }
 
 body {
+  transition: opacity 0.5s ease-in-out;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -110,6 +111,40 @@ img {
   margin: auto;
   margin-right: 80px;
 }
+@keyframes whirlwind {
+  0% {
+    transform: scale(0.2) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1) rotate(720deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(0.2) rotate(1440deg);
+    opacity: 0;
+  }
+}
+.fire-transition {
+  opacity: 0;
+  animation-name: fire;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fire {
+  0% {
+      opacity: 0;
+      transform: scale(0.1);
+      filter: blur(100px);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+      filter: blur(0);
+  }
+}
+
 #f3 img {
   height: 300px;
   width: 150px;

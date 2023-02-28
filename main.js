@@ -81,7 +81,6 @@ function goPrevPage() {
         currentLocation--;
     }
 }
-
 $(document).ready(function(){
     $("body").ripples({
     resolution: 200,
