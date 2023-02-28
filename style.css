@@ -36,7 +36,7 @@ img {
 
 .front,
 .back {
-  background-image : url('paper.jpg');
+  background-image: url("paper.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -91,18 +91,31 @@ img {
   font-size: 30px;
   font-family: "NT Fabulous", sans-serif;
 }
-#b2 h1{
-    font-family: "Adobe Caslon Pro", sans-serif;
-    margin-left: 10px;
-    display:inline-flex;
-    font-size: 22px;
+#b2 h1 {
+  font-family: "Adobe Caslon Pro", sans-serif;
+  margin-left: 10px;
+  display: inline-flex;
+  font-size: 22px;
 }
-#b2 img{
-height: 300px;
-width: 150px;
-display: block;
-margin: auto;
-margin-right: 80px;
+#f3 h1 {
+  font-family: "Adobe Caslon Pro", sans-serif;
+  margin-left: 10px;
+  display: inline-flex;
+  font-size: 22px;
+}
+#b2 img {
+  height: 300px;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-right: 80px;
+}
+#f3 img {
+  height: 300px;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-right: 80px;
 }
 
 /* Controller Buttons */
