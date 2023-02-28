@@ -75,7 +75,7 @@ function goPrevPage() {
                 paper3.style.zIndex = 1;
                 break;
             default:
-                throw new Error("unkown state");
+                throw new Error("unknown state");
         }
 
         currentLocation--;
