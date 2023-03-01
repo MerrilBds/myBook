@@ -59,7 +59,7 @@ img {
 
 .front-content,
 .back-content {
-  font-family: 'Averia Serif Libre', cursive;
+  font-family: "Averia Serif Libre", cursive;
   width: 100%;
   height: 100%;
   display: flex;
@@ -158,7 +158,7 @@ img {
 #b7 img,
 #b8 img,
 #b9 img,
-#b10 img{
+#b10 img {
   height: 300px;
   width: 150px;
   display: block;
@@ -265,3 +265,5 @@ i {
 #p11 {
   z-index: 1;
 }
+
+
