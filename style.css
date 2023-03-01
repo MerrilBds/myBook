@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -61,6 +59,7 @@ img {
 
 .front-content,
 .back-content {
+  font-family: "Adobe Caslon Pro", sans-serif;
   width: 100%;
   height: 100%;
   display: flex;
@@ -81,38 +80,93 @@ img {
 .flipped .back {
   transform: rotateY(-180deg);
 }
+/*Fonts*/
+
+/* Front Content */
+#f2 h1 {
+  font-size: 30px !important;
+  font-family: "NT Fabulous", sans-serif !important;
+}
+#f3 h1 {
+  font-size: 22px;
+  margin-left: 10px;
+  display: inline-flex;
+}
+#f4 h1,
+#f5 h1,
+#f6 h1,
+#f7 h1,
+#f8 h1,
+#f9 h1,
+#f10 h1,
+#f11 h1 {
+  font-size: 22px;
+}
+
+/* Back Content */
 #b1 h1:first-child {
-  font-family: "Adobe Caslon Pro", sans-serif;
   text-decoration: underline;
   margin-left: 10px;
+  font-size: 22px;
 }
 #b1 h2 {
   margin-left: 10px;
-  font-family: "Adobe Caslon Pro", sans-serif;
+  font-size: 22px;
 }
-#f2 h1 {
-  font-size: 30px;
-  font-family: "NT Fabulous", sans-serif;
-}
-#b2 h1 {
-  font-family: "Adobe Caslon Pro", sans-serif;
+
+#b2 h1,
+#b3 h1 {
   margin-left: 10px;
   display: inline-flex;
   font-size: 22px;
 }
-#f3 h1 {
-  font-family: "Adobe Caslon Pro", sans-serif;
-  margin-left: 10px;
-  display: inline-flex;
+
+#b4 h1,
+#b5 h1,
+#b6 h1,
+#b7 h1,
+#b8 h1,
+#b9 h1,
+#b10 h1 {
   font-size: 22px;
 }
-#b2 img {
+
+/*==images==*/
+
+/*Front Content*/
+#f3 img,
+#f4 img,
+#f5 img,
+#f6 img,
+#f7 img,
+#f8 img,
+#f9 img,
+#f10 img,
+#f11 img {
   height: 300px;
   width: 150px;
   display: block;
   margin: auto;
   margin-right: 80px;
 }
+/*Back Content*/
+#b2 img,
+#b3 img,
+#b4 img,
+#b5 img,
+#b6 img,
+#b7 img,
+#b8 img,
+#b9 img,
+#b10 img{
+  height: 300px;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-right: 80px;
+}
+
+/*==Animation==*/
 @keyframes whirlwind {
   0% {
     transform: scale(0.2) rotate(0deg);
@@ -136,23 +190,15 @@ img {
 
 @keyframes fire {
   0% {
-      opacity: 0;
-      transform: scale(0.1);
-      filter: blur(100px);
+    opacity: 0;
+    transform: scale(0.1);
+    filter: blur(100px);
   }
   100% {
-      opacity: 1;
-      transform: scale(1);
-      filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
   }
-}
-
-#f3 img {
-  height: 300px;
-  width: 150px;
-  display: block;
-  margin: auto;
-  margin-right: 80px;
 }
 
 /* Controller Buttons */
@@ -176,16 +222,46 @@ i {
   font-size: 50px;
   color: firebrick;
 }
-
-/* Paper stack order */
 #p1 {
-  z-index: 3;
+  z-index: 11;
 }
 
 #p2 {
-  z-index: 2;
+  z-index: 10;
 }
 
 #p3 {
+  z-index: 9;
+}
+
+#p4 {
+  z-index: 8;
+}
+
+#p5 {
+  z-index: 7;
+}
+
+#p6 {
+  z-index: 6;
+}
+
+#p7 {
+  z-index: 5;
+}
+
+#p8 {
+  z-index: 4;
+}
+
+#p9 {
+  z-index: 3;
+}
+
+#p10 {
+  z-index: 2;
+}
+
+#p11 {
   z-index: 1;
 }
