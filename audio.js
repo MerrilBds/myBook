@@ -27,3 +27,12 @@ $(document).ready(function(){
     perturbance: .004,
 });
 });
+function afficherCitation() {
+	var citation = document.getElementById("citation");
+	if (citation.style.display === "none") {
+	  citation.style.display = "block";
+	} else {
+	  citation.style.display = "none";
+	}
+  }
+  
